@@ -1,0 +1,4 @@
+/openFrameworks/apps/digitallyFit/digitallyfit/src/main.cpp: In function 'int main()':
+/openFrameworks/apps/digitallyFit/digitallyfit/src/main.cpp:9: error: expected type-specifier before 'dfMain'
+/openFrameworks/apps/digitallyFit/digitallyfit/src/main.cpp:9: error: expected `)' before 'dfMain'
+/openFrameworks/apps/digitallyFit/digitallyfit/src/main.cpp:9: error: cannot convert 'int*' to 'ofSimpleApp*' for argument '1' to 'void ofRunApp(ofSimpleApp*)'
