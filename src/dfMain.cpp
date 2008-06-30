@@ -14,7 +14,7 @@ void dfMain::setup(){
         sourceVideoGrabber.setVerbose(true);
         sourceVideoGrabber.initGrabber(320,240);
 	#else
-        sourceVideo.loadMovie("fingers.mov");
+        sourceVideo.loadMovie("jeffonpedistal.mov");
         sourceVideo.play();
 	#endif
 	
@@ -23,7 +23,7 @@ void dfMain::setup(){
 	
 	//displacement things
 	displacementMap.allocate(320,240);
-	displacementMap.set(0);
+	displacementMap.set(127);
 	drawingIntoDisplacement = false;
 	displacedImage.allocate(320,240, GL_RGB);
 	

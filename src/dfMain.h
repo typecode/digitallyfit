@@ -9,7 +9,7 @@
 
 //custom classes
 #include "dfDisplacementMap.h"
-#include "ofFiducialFinder.h"
+#include "dfPropManager.h"
 
 //#define _USE_LIVE_VIDEO		// uncomment this to use a live camera
 								// otherwise, we'll use a movie file

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80338B10E198C1700435618 /* dfPropManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B80338B00E198C1700435618 /* dfPropManager.cpp */; };
+		B80338B50E198C6D00435618 /* dfProp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B80338B40E198C6D00435618 /* dfProp.cpp */; };
 		B8583E690E16977F00539F24 /* dfDisplacementMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8583E680E16977F00539F24 /* dfDisplacementMap.cpp */; };
 		B8583F950E16C22400539F24 /* all.trees in Resources */ = {isa = PBXBuildFile; fileRef = B8583F890E16C22400539F24 /* all.trees */; };
 		B8583F960E16C22400539F24 /* fidtrackX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8583F8B0E16C22400539F24 /* fidtrackX.cpp */; };
@@ -37,6 +39,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80338B00E198C1700435618 /* dfPropManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfPropManager.cpp; sourceTree = "<group>"; };
+		B80338B20E198C6300435618 /* dfPropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfPropManager.h; sourceTree = "<group>"; };
+		B80338B30E198C6D00435618 /* dfProp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfProp.h; sourceTree = "<group>"; };
+		B80338B40E198C6D00435618 /* dfProp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfProp.cpp; sourceTree = "<group>"; };
 		B8583E670E16977F00539F24 /* dfDisplacementMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dfDisplacementMap.h; sourceTree = "<group>"; };
 		B8583E680E16977F00539F24 /* dfDisplacementMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfDisplacementMap.cpp; sourceTree = "<group>"; };
 		B8583F890E16C22400539F24 /* all.trees */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = all.trees; sourceTree = "<group>"; };
@@ -308,6 +314,10 @@
 				E4B69E1F0A3A1BDC003C02F2 /* dfMain.h */,
 				B8583E670E16977F00539F24 /* dfDisplacementMap.h */,
 				B8583E680E16977F00539F24 /* dfDisplacementMap.cpp */,
+				B80338B00E198C1700435618 /* dfPropManager.cpp */,
+				B80338B20E198C6300435618 /* dfPropManager.h */,
+				B80338B30E198C6D00435618 /* dfProp.h */,
+				B80338B40E198C6D00435618 /* dfProp.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -418,6 +428,8 @@
 				B8583F970E16C22400539F24 /* segment.cpp in Sources */,
 				B8583F980E16C22400539F24 /* treeidmap.cpp in Sources */,
 				B8583F990E16C22400539F24 /* ofFiducialFinder.cpp in Sources */,
+				B80338B10E198C1700435618 /* dfPropManager.cpp in Sources */,
+				B80338B50E198C6D00435618 /* dfProp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
